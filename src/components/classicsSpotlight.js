@@ -62,8 +62,8 @@ export function createClassicSpotlight(data,componentName){
             this.innerHTML = classicsSpotlight(data);
              // Query selectors for the carousel element and navigation buttons
             const classic= this.querySelector("#classic");
-            const left_classic = this.querySelector("#leftClassic");
-            const right_classic = this.querySelector("#rightClassic");
+            const leftClassic = this.querySelector("#leftClassic");
+            const rightClassic = this.querySelector("#rightClassic");
              // Function to implement carousel functionality
             function carousel(carousel_element, nextBtn, backBtn){
                 // Event listener for the next button
@@ -81,7 +81,7 @@ export function createClassicSpotlight(data,componentName){
                 })
               })
             }
-            carousel(classic,right_classic, left_classic)
+            carousel(classic,rightClassic, leftClassic)
         }
     }
     customElements.define(componentName ? componentName : "classics-spotlight-content", ClassicsSpotlight);

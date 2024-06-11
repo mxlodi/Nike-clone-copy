@@ -337,11 +337,11 @@ class NewFeaturedCategories extends HTMLElement{
         sideDropdown("bestBtn", "bestContent", "h-[120px]")
         // Function to implement dropdown functionality
         function sideDropdown(btn,content,h){
-        const btn = document.querySelector(`#${btn}`);
-        const content = document.querySelector(`#${content}`);
+        const button = document.querySelector(`#${btn}`);
+        const contents = document.querySelector(`#${content}`);
         
-        btn.addEventListener("click",function(){
-            content.classList.toggle(`${h}`)
+        button.addEventListener("click",function(){
+            contents.classList.toggle(`${h}`)
         })
         }
 

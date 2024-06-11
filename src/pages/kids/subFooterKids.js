@@ -143,11 +143,11 @@ class SubFooter extends HTMLElement {
     }
     // Function for dropdown
     sideDropdown(btn, content, h) {
-        const Btn = this.querySelector(`#${btn}`);
-        const Content = this.querySelector(`#${content}`);
+        const btn = this.querySelector(`#${btn}`);
+        const content = this.querySelector(`#${content}`);
 
-        Btn.addEventListener("click", function () {
-            Content.classList.toggle(`${h}`)
+        btn.addEventListener("click", function () {
+            content.classList.toggle(`${h}`)
         })
     }
 }

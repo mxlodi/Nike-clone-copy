@@ -19,7 +19,7 @@ const cardContent = (arr) => {
 };
 
 // Create array that contain data
-const CardArr = [
+const cardArr = [
     {
         img: "../../images/newfeatured/products/air-max-plus-drift-mens-shoes-FKwJ7w.png",
         text: "Just In",
@@ -124,7 +124,7 @@ class CardContent extends HTMLElement{
     }
     // Callback function when the element is connected to the DOM
     connectedCallback(){
-        this.innerHTML = cardContent(CardArr);
+        this.innerHTML = cardContent(cardArr);
     }
 };
 // Define the custom element with the specified name

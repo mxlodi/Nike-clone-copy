@@ -158,6 +158,7 @@ Customize :
     - **`tailwind.config.js`**:
         - Configuration file for Tailwind CSS, allowing customization of the CSS framework to fit specific project requirements and design preferences.
 
+
 # **`Git Workflow`**
 
 ## **Git-Flow Branching Strategy**
@@ -242,28 +243,27 @@ Customize :
     </aside>
     
     - Commit message :
-        - Commit branch :
-            
-            ⇒ feature : { describe about the problem in detail, which part you’ve worked on }
-            
-            - feature : home-page, add a menu button to navbar of home page.
-            
-            ⇒ release : { describe about the release version in detail }
-            
-            - release : release team website version 1.0
-            
-            ⇒ bugfix : { describe about the bug on the pre-release version }
-            
-            - bugfix : fixed the bug on pre-release version 1.0, error on register user account.
-            
-            ⇒ hotfix : { describe about the problem in detail, which part you’ve worked on and fixed }
-            
-            - hotfix : home-page, quick fix on released version 1.0, error on nav-bar and hero section.
-    
-    <aside>
-    💡 Note: Give a meaningful commit message.
-    </aside>
-    
+
+        ⇒ file : { describe about the problem in detail, which part you’ve worked on }
+
+        - file : add marathon speed ahead.jpeg to men image folder
+
+        ⇒ bugfix : { describe about the bug on the pre-release version }
+
+        - bugfix : fixed the bug on pre-release version 1.0, error on register user account.
+
+        ⇒ hotfix : { describe about the problem in detail, which part you’ve worked on and fixed }
+
+        - hotfix : quick fix on released version 1.0, error on popular section in home page
+
+        <aside>
+        💡 Note: Give a meaningful commit message.
+
+        </aside>
+
+## `*CONVENTION GUIDE:*`
+
+[Convention](https://twisty-grass-0c0.notion.site/Convention-Guide-b414227525bf452ba26fb3cc803debf4?pvs=4)
 
 ## `*TRACKING:*`
 

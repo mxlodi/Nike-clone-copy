@@ -1,7 +1,7 @@
 // Function that will loop over the array card for new featured card section
 const cardContent = (arr) => {
     return `
-    <div id="right-content" class="z-[3] grid  min-[960px]:grid-cols-3 grid-cols-2  gap-4 lg:px-4 px-0">
+    <div id="rightContent" class="z-[3] grid  min-[960px]:grid-cols-3 grid-cols-2  gap-4 lg:px-4 px-0">
         ${arr.map((item) => {
             return `
             <div class="pb-10">

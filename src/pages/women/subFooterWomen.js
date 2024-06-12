@@ -3,7 +3,7 @@ import { subFooter } from "../../components/subFooter.js";
 
 const womenSubFooter = [
     {
-      name: "Women's Shoes",
+      category: "Women's Shoes",
       items: [
         "All Women's Shoes",
         "Running",
@@ -18,7 +18,7 @@ const womenSubFooter = [
       ]
     },
     {
-      name: "Women's Clothing",
+      category: "Women's Clothing",
       items: [
         "All Women's Clothing",
         "Plus Size",
@@ -34,7 +34,7 @@ const womenSubFooter = [
       ]
     },
     {
-      name: "Women's Gear",
+      category: "Women's Gear",
       items: [
         "Accessories & Equipment",
         "Bags & Backpacks",
@@ -49,7 +49,7 @@ const womenSubFooter = [
       ]
     },
     {
-      name: "Featured",
+      category: "Featured",
       items: [
         "Luxe Leggings",
         "Compare Sports Bras",

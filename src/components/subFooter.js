@@ -33,7 +33,7 @@ const renderCategorySmall =(arr) =>{
 export const subFooter = (array) => {
     return `
     
-    <div class="max-w-[900px] mx-auto md:block hidden p-3 mt-20 transition-all ease-in-out duration-300 flex-row h-[185px] overflow-y-hidden hover:h-full"> 
+    <div class="max-w-[1000px] mx-auto md:block hidden p-3 mt-20 transition-all ease-in-out duration-300 flex-row h-[185px] overflow-hidden hover:h-full"> 
         <div class="flex flex-row gap-20 text-gray-500"> 
             ${renderCategory(array)}
         </div> 
